@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
 
-.userName {
+.projectName {
     color: #000000;
 }
-.emailMessage {
+.projectDetails {
     color: #3b3b3b;
     font-family: 'Roboto', sans-serif;
 }

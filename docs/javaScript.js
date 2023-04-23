@@ -1,11 +1,12 @@
-function sendEmail() {
-    let username = document.querySelector(".userName").value
-    let usermessage = document.getElementById('emsubject').value
-    let useremail = document.querySelector(".e-mail--input").value
+function sendEmailProject() {
+    let projectName = document.querySelector(".projectName").value;
+    let projectbudget = document.querySelector(".budget").value;
+    let projectDetails = document.getElementById(".projectDetails").value;
+    let useremail = document.querySelector(".email-input-project").value;
 
-    emailjs.send("service_00gco5o","template_s0xjpre",{
-        from_name: username +"\n"+ "E-mail: "+ useremail,
-        message: usermessage,
+    emailjs.send("service_00gco5o","template_nhpcjqn",{
+        from_name: projectName +"\nE-mail: "+ useremail +"\nBudget: " + projectbudget,
+        message: projectDetails,
     });
-    alert("Το e-mail σας στάλθηκε");
+    alert("Your e-mail was sent successfully");
 }
