@@ -24,3 +24,7 @@
     position: absolute;
     transform: translate(0%, -30%);
 }
+
+.special {
+    color: #FFC300;
+}

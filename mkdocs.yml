@@ -36,6 +36,7 @@ theme:
     code: Share Tech Mono
 
 markdown_extensions:
+  - attr_list
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
