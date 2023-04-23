@@ -7,6 +7,15 @@
     color: #3b3b3b;
     font-family: 'Roboto', sans-serif;
 }
+
+.userName {
+    color: #000000;
+}
+.emailSubject {
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+}
+
 .bold {
     color: rgb(255, 51, 0);
     cursor: help;
