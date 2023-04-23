@@ -4,7 +4,9 @@ theme:
   icon:
     logo: material/xml
   plugins:
-  - offline
+    - offline
+    - optimize:
+      concurrency: 1
   features:
     - navigation.tabs
     - navigation.sections
@@ -33,5 +35,40 @@ theme:
   font:
     code: Share Tech Mono
 
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 repo_name: HrsSid/Harrys-Sidiropoulos
 repo_url: https://github.com/HrsSid/Harrys-Sidiropoulos
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HrsSid
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/_g6h4_
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:harryssidiropoulos@gmail.com
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+extra_javascript:
+  - javaScript.js
+extra_css:
+  - css.css
+
+copyright: |
+  &copy; 2023 - <a target="_blank" href="https://github.com/HrsSid">Harrys Sidiropoulos</a> <a target="_blank" href="https://github.com/HrsSid"><img class="signature" width="100" src="https://cdn.discordapp.com/attachments/1088487280806735903/1099377312199352320/combine_images__1_-removebg-preview.png"></a>

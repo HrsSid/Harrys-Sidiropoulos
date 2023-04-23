@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+
+.userName {
+    color: #000000;
+}
+.emailMessage {
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+}
+.bold {
+    color: rgb(255, 51, 0);
+    cursor: help;
+}
+
+.title {
+    font-size: xx-large;
+}
+.subtitle {
+    font-size: larger;
+    margin-top: -3%;
+}
+
+.signature {
+    position: absolute;
+    transform: translate(0%, -30%);
+}
