@@ -15,4 +15,4 @@ hide:
 
 Hello, my name is <span class="special">Harrys Sidiropoulos</span>, i was born in 2008 and I am from greece. In my free time I love to practice my skills in programming. I practice <span class="special">web development</span> or <span class="special">software development</span>.
 
-On 2017 I started learning <span class="special">Python</span> and it was my first interaction with a computer. In 2020 I was learning HTML
+In 2017 I started learning <span class="special">Python</span> and it was my first interaction with a computer language. In 2020 I was learning HTML
