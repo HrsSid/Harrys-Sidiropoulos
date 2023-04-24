@@ -1,6 +1,7 @@
 site_name: Harrys Sidiropoulos
 theme:
   name: material
+  favicon: none
   icon:
     logo: material/xml
     admonition:
@@ -44,7 +45,6 @@ markdown_extensions:
   - attr_list
   - pymdownx.tabbed:
       alternate_style: true
-  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences:
