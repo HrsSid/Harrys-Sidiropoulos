@@ -1,4 +1,10 @@
+/* Text Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* Code Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 
 .projectName {
     color: #000000;
@@ -13,7 +19,7 @@
 }
 .emailSubject {
     color: #3b3b3b;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .bold {

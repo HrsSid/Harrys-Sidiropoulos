@@ -33,6 +33,7 @@ theme:
       primary: orange
       accent: orange
   font:
+    text: Titillium Web
     code: Share Tech Mono
 
 markdown_extensions:
