@@ -3,6 +3,10 @@ theme:
   name: material
   icon:
     logo: material/xml
+    admonition:
+      warning: material/fire
+      example: material/xml
+      info: octicons/project-symlink-24
   plugins:
     - offline
     - optimize:
