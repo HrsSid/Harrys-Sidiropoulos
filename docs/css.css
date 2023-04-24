@@ -43,3 +43,11 @@
 .special {
     color: #FFA100; /* #1d7cff, #FFA100 */
 }
+
+.separator {
+    position: absolute;
+    border-top: 2px solid #b6b6b6;
+    background: transparent;
+    padding-left: 60%;
+    left: 20%;
+}

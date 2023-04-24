@@ -8,7 +8,7 @@ hide:
 <p class="title">Harrys Sidiropoulos</p>
 <p class="subtitle">Front-end & software developer</p>
 
-[About Me](#About Me){ .md-button }
+[About Me](#about-me){ .md-button }
 [My Skills](2){ .md-button }
 
 ## About Me
